@@ -1,6 +1,7 @@
 <template>
   <HomeSectionDevelop />
   <section class="section-create">
+    <img src="~assets/img/page-home/line-create.svg" class="bg-line">
     <aside>
       <div class="content">
         <h2>Créez votre site internet</h2>
@@ -72,6 +73,13 @@ h2 {
   padding-top: 15em;
   padding-bottom: 20px;
   display: flex;
+  position: relative;
+  .bg-line {
+    width: 80%;
+    position: absolute;
+    top: 5em;
+    left: -30%;
+  }
   main, aside {
     flex: 1;
     display: flex;
@@ -98,8 +106,12 @@ h2 {
         display: flex;
         padding: 50px 0 50px 3em;
         border-left: 3px solid transparent;
+        color: #8A8D94;
         &:hover {
           border-left: 3px solid #CF525E;
+          b {
+            color: #CF525E;
+          }
         }
         b {
           width: 110px;
