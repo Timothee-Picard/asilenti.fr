@@ -12,7 +12,7 @@
   url(./assets/fonts/catellos-medium.ttf) format("truetype");
 }
 
-body, h1 {margin: 0}
+body, h1, h2, ul {margin: 0; padding: 0}
 html {
   font-family: 'Jost', sans-serif;
   background-color: #EBEFF0;
