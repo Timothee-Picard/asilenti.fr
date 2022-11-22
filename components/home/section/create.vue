@@ -42,9 +42,8 @@
 <style lang="scss" scoped>
 section {
   padding-top: 15em;
-  padding-bottom: 20px;
+  padding-bottom: 5em;
   display: flex;
-  align-items: center;
   position: relative;
   .bg-line {
     width: 80%;
@@ -60,9 +59,10 @@ section {
     display: flex;
     justify-content: center;
     position: sticky;
-    bottom: 50%;
-    transform: translateY(50%);
+    top: 50%;
+    transform: translateY(-50%);
     height: fit-content;
+    margin-top: 200px;
     .content {
       max-width: 453px;
     }
@@ -76,9 +76,10 @@ section {
       flex-direction: column;
       max-width: 450px;
       margin-left: 5em;
+      gap: 5em;
       li {
         display: flex;
-        padding: 50px 0 50px 3em;
+        padding: 100px 0 100px 3em;
         border-left: 3px solid transparent;
         color: #8A8D94;
         &:hover {
